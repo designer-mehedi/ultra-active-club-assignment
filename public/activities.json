@@ -1,0 +1,44 @@
+[
+    {
+        "id": "01",
+        "activityName": "Walking",
+        "status": "Morning",
+        "img": "https://images.unsplash.com/photo-1513378628213-b8f36d8c2878?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "duration": "60"
+    },
+    {
+        "id": "02",
+        "activityName": "Swimming",
+        "status": "Afternoon",
+        "img": "https://images.unsplash.com/photo-1503110906525-c5254a531c64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "duration": "30"
+    },
+    {
+        "id": "03",
+        "activityName": "Yoga",
+        "status": "Morning",
+        "img": "https://images.unsplash.com/photo-1616699002805-0741e1e4a9c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "duration": "45"
+    },
+    {
+        "id": "04",
+        "activityName": "Cycling",
+        "status": "Evening",
+        "img": "https://images.unsplash.com/photo-1605050825077-289f85b6cf43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "duration": "30"
+    },
+    {
+        "id": "05",
+        "activityName": "Music",
+        "status": "Night",
+        "img": "https://images.unsplash.com/photo-1544031284-0eec3056a260?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
+        "duration": "30"
+    },
+    {
+        "id": "06",
+        "activityName": "Study & Research",
+        "status": "Night",
+        "img": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
+        "duration": "60"
+    }
+]
