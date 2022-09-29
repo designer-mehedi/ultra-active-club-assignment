@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgba(165, 216, 255, 0.274);
+  width: 100%;
 }
-
+.container {
+    width: 1240px;
+    margin: auto;
+    padding: 0 30px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
 }
