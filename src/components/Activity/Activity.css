@@ -1,0 +1,36 @@
+.activity {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.activity img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.activity-btn {
+    border: none;
+    background: rgb(137, 111, 185);
+    padding: 15px 30px;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.activity-btn .icon {
+    background: rgb(28, 71, 199);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    line-height: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .activity {
+        width: 100%;
+        padding: 10px;
+    }
+}
