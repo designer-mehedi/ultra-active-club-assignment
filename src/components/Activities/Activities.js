@@ -29,11 +29,6 @@ const Activities = () => {
         setTime(newTime); 
     }
 
-    // const toastMessage = () => {
-    //     toast.success("Activity Completed", {
-    //     }) 
-    // }
-
     const toastMessage = () => {
         toast.success("Activity Completed", {
             position: "top-center",
@@ -45,9 +40,6 @@ const Activities = () => {
         <div className="activities">
 
             <div className="activities-container">
-                {/* {
-                    activities.map(activity => console.log(activity))
-                } */}
                 {
                     activities.map(activity => <Activity activity={activity} key={activity.id} handleAddTime={handleAddTime}></Activity>)
                 }
