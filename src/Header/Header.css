@@ -1,0 +1,23 @@
+.header {
+    /* text-align: center; */
+    padding: 20px 150px; 
+}
+.navbar-heading {
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.navbar-icon {
+    font-size: 40px;
+    color: rgb(107, 68, 249);
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        padding: 10px;
+        text-align: center;
+    }
+    .navbar-heading {
+        font-size: 30px;
+    }
+}
