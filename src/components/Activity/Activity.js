@@ -5,7 +5,7 @@ import './Activity.css';
 
 const Activity = ({ activity, handleAddTime }) => {
     // const {activity, handleAddTime} = props; 
-    const { activityName, img, duration, status } = activity;
+    const { activityName, img, duration, status} = activity; 
     return (
         <div className="activity">
             <img src={img} alt="" />

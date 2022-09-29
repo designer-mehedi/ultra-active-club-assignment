@@ -3,12 +3,10 @@
     padding: 10px;
     border-radius: 8px;
 }
-
 .activity img {
     max-width: 100%;
     border-radius: 8px;
 }
-
 .activity-btn {
     border: none;
     background: rgb(137, 111, 185);
@@ -18,7 +16,6 @@
     font-size: 16px;
     cursor: pointer;
 }
-
 .activity-btn .icon {
     background: rgb(28, 71, 199);
     height: 20px;
@@ -28,7 +25,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px){
     .activity {
         width: 100%;
         padding: 10px;

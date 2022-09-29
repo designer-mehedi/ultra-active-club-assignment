@@ -14,8 +14,8 @@ const Activities = () => {
     let [time, setTime] = useState(0)
     useEffect(() => {
         fetch('activities.json')
-            .then(res => res.json())
-            .then(data => setActivities(data))
+        .then(res => res.json())
+        .then(data => setActivities(data))
     }, [])
 
     const handleAddBreak = (breaks) => {
@@ -26,8 +26,13 @@ const Activities = () => {
 
     const handleAddTime = (activity) => {
         const newTime = time + parseFloat(activity);
-        setTime(newTime);
+        setTime(newTime); 
     }
+
+    // const toastMessage = () => {
+    //     toast.success("Activity Completed", {
+    //     }) 
+    // }
 
     const toastMessage = () => {
         toast.success("Activity Completed", {
@@ -69,7 +74,7 @@ const Activities = () => {
                     <p className="activity-time"><span>Break Time</span><span> {breaks} minutes</span></p>
                 </div>
                 <button onClick={toastMessage} className="toast">Complete Activity</button>
-                <ToastContainer />
+                <ToastContainer/>
             </div>
         </div>
     );

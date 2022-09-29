@@ -4,14 +4,12 @@
     gap: 20px;
     /* padding: 30px 0; */
 }
-
 .activities-container {
     padding: 30px 150px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
 }
-
 .my-profile {
     background: #fff;
     height: 100vh;
@@ -21,7 +19,6 @@
     right: 0;
     width: 20%;
 }
-
 .button-container {
     background: rgb(124, 144, 155, .3);
     padding: 12px 8px;
@@ -29,8 +26,7 @@
     display: flex;
     justify-content: space-between;
 }
-
-.button-container button {
+.button-container button{
     border: none;
     padding: 0;
     background: #fff;
@@ -40,7 +36,6 @@
     border-radius: 50%;
     text-align: center;
 }
-
 .activity-time {
     display: flex;
     justify-content: space-between;
@@ -48,7 +43,6 @@
     padding: 12px 10px;
     border-radius: 8px;
 }
-
 .toast {
     border: none;
     background: blueviolet;
@@ -66,7 +60,6 @@
         width: 100%;
         /* padding: 10px; */
     }
-
     .my-profile {
         position: static;
         width: 100%;
@@ -74,7 +67,6 @@
         padding: 0 10px;
 
     }
-
     .activities-container {
         padding: 10px 30px;
         grid-template-columns: 1fr;
