@@ -1,0 +1,23 @@
+.questions {
+    padding: 20px 150px;
+    width: 60%;
+}
+
+.question-set {
+    border: 1px solid #333;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+}
+
+.question-set h2 {
+    background: rgb(137, 111, 185);
+    padding: 10px 30px;
+    color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .questions {
+        width: 100%;
+        padding: 10px;
+    }
+}
