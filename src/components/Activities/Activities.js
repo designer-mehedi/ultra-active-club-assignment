@@ -24,6 +24,12 @@ const Activities = () => {
         localStorage.setItem('breaks', breaks)
     }
 
+    useEffect(() => {
+        const localStorageData = localStorage.getItem('breaks');
+        console.log(localStorageData);
+        setBreaks(localStorageData);
+    }, [])
+
     const handleAddTime = (activity) => {
         const newTime = time + parseFloat(activity);
         setTime(newTime); 
