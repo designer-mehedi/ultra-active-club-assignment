@@ -38,8 +38,9 @@ const Activities = () => {
         })
     }
     return (
+        <div>
+            <h2 className="heading">Recent Activities</h2>
         <div className="activities">
-
             <div className="activities-container">
                 {
                     activities.map(activity => <Activity activity={activity} key={activity.id} handleAddTime={handleAddTime}></Activity>)
@@ -70,6 +71,7 @@ const Activities = () => {
                 <ToastContainer/>
             </div>
         </div>
+    </div>
     );
 };
 

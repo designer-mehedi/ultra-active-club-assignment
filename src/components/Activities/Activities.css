@@ -10,6 +10,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
 }
+.heading {
+    padding: 0 150px;
+}
 .my-profile {
     background: #fff;
     height: 100vh;
