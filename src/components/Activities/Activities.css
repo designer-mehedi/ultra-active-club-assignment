@@ -58,17 +58,33 @@
     .activities {
         grid-template-columns: 1fr;
         width: 100%;
-        /* padding: 10px; */
     }
     .my-profile {
         position: static;
         width: 100%;
         height: 600px;
         padding: 0 10px;
-
     }
     .activities-container {
         padding: 10px 30px;
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen  and (max-width: 768px) {
+    .activities {
+            grid-template-columns: 1fr;
+            width: 100%;
+            padding: 50px;
+        }
+    .my-profile {
+            position: static;
+            width: 100%;
+            height: 600px;
+            padding: 0 10px;
+        }
+    .activities-container {
+        padding: 10px 30px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
