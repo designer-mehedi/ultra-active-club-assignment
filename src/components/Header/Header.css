@@ -11,7 +11,6 @@
     font-size: 40px;
     color: rgb(107, 68, 249);
 }
-
 @media screen and (max-width: 576px) {
     .header {
         padding: 10px;

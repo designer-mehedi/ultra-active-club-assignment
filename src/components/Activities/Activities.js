@@ -17,31 +17,26 @@ const Activities = () => {
         .then(res => res.json())
         .then(data => setActivities(data))
     }, [])
-
     const handleAddBreak = (breaks) => {
         const breakTime = breaks;
         setBreaks(breakTime);
         localStorage.setItem('breaks', breaks)
     }
-
     useEffect(() => {
         const localStorageData = localStorage.getItem('breaks');
         console.log(localStorageData);
         setBreaks(localStorageData);
     }, [])
-
     const handleAddTime = (activity) => {
         const newTime = time + parseFloat(activity);
         setTime(newTime); 
     }
-
     const toastMessage = () => {
         toast.success("Activity Completed", {
             position: "top-center",
             autoClose: 2000
         })
     }
-
     return (
         <div className="activities">
 

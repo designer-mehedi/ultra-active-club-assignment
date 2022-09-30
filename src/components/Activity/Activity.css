@@ -24,7 +24,6 @@
     line-height: 20px;
     text-align: center;
 }
-
 @media screen and (max-width: 576px){
     .activity {
         width: 100%;
