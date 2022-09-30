@@ -16,12 +16,12 @@
 @media screen and (max-width: 576px) {
     .questions {
         width: 100%;
-        padding: 10px;
+        padding: 0 10px;
     }
 }
 @media screen and (max-width: 768px) {
     .questions {
         width: 100%;
-        padding: 50px;
+        padding: 0 10px;
     }
 }
